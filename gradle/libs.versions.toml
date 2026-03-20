@@ -66,7 +66,7 @@ aivory-firstopen = "1.0.3-alpha13"
 # Admob mediation adapter
 admob-mintegral-adapter = "17.0.91.0"
 admob-pangle-adapter = "7.9.1.1.0"
-admob-applovin-adapter = "13.5.1.0"
+admob-applovin-adapter = "13.6.0.0"
 admob-facebook-adapter = "6.21.0.1"
 
 # Image loader
@@ -74,9 +74,9 @@ glide = "5.0.5"
 navigation-fragment = "2.9.7"
 
 # Networking
-retrofit = "2.11.0"
-okhttp = "4.12.0"
-okhttp-logging = "4.12.0"
+retrofit = "3.0.0"
+okhttp = "5.3.2"
+okhttp-logging = "5.3.2"
 retrofit-serialization = "1.0.0"
 
 [libraries]
