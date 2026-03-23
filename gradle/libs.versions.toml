@@ -63,7 +63,7 @@ androidx-benchmark = "1.4.1"
 aivory-analytics = "1.0.0"
 aivory-firstopen = "1.0.3-alpha13"
 aivory-core-snapshot = "1.0.0-SNAPSHOT"
-aivory-core = "1.0.0"
+aivory-core = "1.0.1"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.0.91.0"
