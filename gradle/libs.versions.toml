@@ -62,6 +62,8 @@ androidx-benchmark = "1.4.1"
 # Aivory SDKs
 aivory-analytics = "1.0.0"
 aivory-firstopen = "1.0.3-alpha13"
+aivory-core-snapshot = "1.0.0-SNAPSHOT"
+aivory-core = "1.0.0"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.0.91.0"
@@ -187,6 +189,7 @@ kotlin-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-j
 
 aivory-analytics = { module = "app.aivory:analytics", version.ref = "aivory-analytics" }
 aivory-firstopen = { module = "app.aivory:firstopen", version.ref = "aivory-firstopen" }
+aivory-core = { module = "app.aivory.android:core", version.ref = "aivory-core" }
 
 
 
@@ -252,7 +255,8 @@ firebase = [
 
 aivory = [
   "aivory-analytics",
-  "aivory-firstopen"
+  "aivory-firstopen",
+  "aivory-core"
 ]
 
 admob-mediation-adapter = [
