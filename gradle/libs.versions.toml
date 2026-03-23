@@ -202,9 +202,11 @@ admob-pangle-adapter = { module = "com.google.ads.mediation:pangle", version.ref
 # ----------------
 # Image loader
 # ----------------
+
+
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
-androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigation-fragment" }
+
 
 # ----------------
 # Networking
