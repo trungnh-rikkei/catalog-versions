@@ -72,7 +72,6 @@ admob-facebook-adapter = "6.21.0.1"
 
 # Image loader
 glide = "5.0.5"
-navigation-fragment = "2.9.7"
 
 # Networking
 retrofit = "3.0.0"
