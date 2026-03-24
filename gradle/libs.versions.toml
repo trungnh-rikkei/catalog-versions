@@ -67,7 +67,7 @@ aivory-core = "1.0.1"
 # Admob mediation adapter
 admob-mintegral-adapter = "17.0.91.0"
 admob-pangle-adapter = "7.9.1.1.0"
-admob-applovin-adapter = "13.6.0.0"
+admob-applovin-adapter = "13.6.1.0"
 admob-facebook-adapter = "6.21.0.1"
 
 # Image loader
