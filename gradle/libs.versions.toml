@@ -256,7 +256,8 @@ firebase = [
 aivory = [
   "aivory-analytics",
   "aivory-firstopen",
-  "aivory-core"
+  "aivory-core",
+  "aivory-ads"
 ]
 
 admob-mediation-adapter = [
