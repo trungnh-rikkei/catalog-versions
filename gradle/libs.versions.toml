@@ -196,6 +196,7 @@ kotlin-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-j
 # ----------------
 
 aivory-ads = { module = "app.aivory.monet:ads", version.ref = "aivory-ads" }
+aivory-ads-ui-views = { module = "app.aivory.monet:ads-ui-views", version.ref = "aivory-ads" }
 aivory-analytics = { module = "app.aivory:analytics", version.ref = "aivory-analytics" }
 aivory-firstopen = { module = "app.aivory:firstopen", version.ref = "aivory-firstopen" }
 aivory-core = { module = "app.aivory.android:core", version.ref = "aivory-core" }
@@ -269,7 +270,8 @@ aivory = [
   "aivory-analytics",
   "aivory-firstopen",
   "aivory-core",
-  "aivory-ads"
+  "aivory-ads",
+  "aivory-ads-ui-views"
 ]
 
 admob-mediation-adapter = [
