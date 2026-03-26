@@ -61,7 +61,7 @@ spotless = "8.4.0"
 androidx-benchmark = "1.4.1"
 
 # Aivory SDKs
-aivory-ads = "1.0.9"
+aivory-ads = "1.0.10"
 aivory-analytics = "1.0.0"
 aivory-firstopen = "1.0.4-alpha01"
 aivory-core = "1.0.3-alpha01"
