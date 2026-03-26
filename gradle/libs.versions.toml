@@ -36,7 +36,7 @@ firebase-crashlytics = "3.0.6"
 # Google
 google-services = "4.4.4"
 play-app-update = "2.1.0"
-work-runtime = "2.11.1"
+work-runtime = "2.11.2"
 
 # Cast / MediaRouter
 mediarouter = "1.8.1"
