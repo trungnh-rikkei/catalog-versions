@@ -3,77 +3,12 @@
 # Build
 agp = "9.1.0"
 kotlin = "2.3.20"
-ksp = "2.3.6"
-
-# AndroidX
-core-ktx = "1.18.0"
-appcompat = "1.7.1"
-activity = "1.13.0"
-fragment = "1.8.9"
-constraintlayout = "2.2.1"
-material = "1.13.0"
-
-# Lifecycle
-lifecycle = "2.10.0"
-
-# Navigation
-navigation = "2.9.7"
-
-# Datastore
-datastore = "1.2.1"
-
-# Room
-room = "2.8.4"
 
 # Logging
 timber = "5.0.1"
 
-# Firebase
-firebase-bom = "34.11.0"
-firebase-messaging = "25.0.1"
-firebase-crashlytics = "3.0.6"
-
-# Google
-google-services = "4.4.4"
-play-app-update = "2.1.0"
-asset-delivery = "2.3.0"
-emoji = "0.24.1"
-work-runtime = "2.11.2"
-
-# Cast / MediaRouter
-mediarouter = "1.8.1"
-play-services-cast = "22.3.0"
-
-# Media3 (ExoPlayer)
-media3 = "1.9.3"
-
-# Image loader
-
 # Facebook
 facebook = "18.1.3"
-infer-annotation = "0.18.0"
-
-# QR / Barcode
-zxing = "4.3.0"
-
-# RevenueCat
-purchases = "9.27.0"
-
-# DI
-hilt = "2.59.2"
-
-# Kotlin
-serialization = "1.10.0"
-
-# Debug
-leakcanary = "2.14"
-
-# Formatting
-ktlint = "1.2.1"
-spotless = "8.4.0"
-
-# Benchmark
-androidx-benchmark = "1.4.1"
 
 # Aivory SDKs
 aivory-ads = "1.0.10"
@@ -89,88 +24,7 @@ admob-applovin-adapter = "13.6.1.0"
 admob-facebook-adapter = "6.21.0.1"
 admob-vungle-adapter = "7.7.1.0"
 
-# Image loader
-glide = "5.0.5"
-
-# Networking
-retrofit = "3.0.0"
-okhttp = "5.3.2"
-okhttp-logging = "5.3.2"
-retrofit-serialization = "1.0.0"
-okhttp2 = "2.7.5"
-
 [libraries]
-
-# ----------------
-# AndroidX Core
-# ----------------
-
-androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
-androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
-
-androidx-activity = { module = "androidx.activity:activity", version.ref = "activity" }
-androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
-
-androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
-
-androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
-
-material = { module = "com.google.android.material:material", version.ref = "material" }
-
-
-# ----------------
-# Lifecycle
-# ----------------
-
-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycle" }
-
-
-# ----------------
-# Navigation
-# ----------------
-
-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation" }
-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation" }
-
-
-# ----------------
-# Datastore
-# ----------------
-
-datastore = { module = "androidx.datastore:datastore", version.ref = "datastore" }
-
-
-# ----------------
-# Room
-# ----------------
-
-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
-
-
-# ----------------
-# DI
-# ----------------
-
-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
-
-
-# ----------------
-# Firebase
-# ----------------
-
-firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
-
-firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
-firebase-config = { module = "com.google.firebase:firebase-config" }
-firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
-firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebase-messaging" }
-
 
 # ----------------
 # Logging
@@ -180,33 +34,10 @@ timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 
 
 # ----------------
-# WorkManager
-# ----------------
-
-androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "work-runtime" }
-
-
-# ----------------
 # Facebook
 # ----------------
 
 facebook-sdk = { module = "com.facebook.android:facebook-android-sdk", version.ref = "facebook" }
-infer-annotation = { module = "com.facebook.infer.annotation:infer-annotation", version.ref = "infer-annotation" }
-
-
-# ----------------
-# RevenueCat
-# ----------------
-
-purchases = { module = "com.revenuecat.purchases:purchases", version.ref = "purchases" }
-purchases-ui = { module = "com.revenuecat.purchases:purchases-ui", version.ref = "purchases" }
-
-
-# ----------------
-# Kotlin
-# ----------------
-
-kotlin-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 
 
 # ----------------
@@ -221,7 +52,6 @@ aivory-core = { module = "app.aivory.android:core", version.ref = "aivory-core" 
 aivory-rating = { module = "app.aivory:rating", version.ref = "aivory-rating" }
 
 
-
 # ----------------
 # Admob mediation adapter
 # ----------------
@@ -232,137 +62,9 @@ admob-pangle-adapter = { module = "com.google.ads.mediation:pangle", version.ref
 admob-vungle-adapter = { module = "com.google.ads.mediation:vungle", version.ref = "admob-vungle-adapter" }
 
 
-# ----------------
-# Media3 (ExoPlayer)
-# ----------------
-
-androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "media3" }
-androidx-media3-exoplayer-hls = { module = "androidx.media3:media3-exoplayer-hls", version.ref = "media3" }
-androidx-media3-ui = { module = "androidx.media3:media3-ui", version.ref = "media3" }
-androidx-media3-datasource = { module = "androidx.media3:media3-datasource", version.ref = "media3" }
-
-
-# ----------------
-# Cast / MediaRouter
-# ----------------
-
-androidx-mediarouter = { module = "androidx.mediarouter:mediarouter", version.ref = "mediarouter" }
-play-services-cast-framework = { module = "com.google.android.gms:play-services-cast-framework", version.ref = "play-services-cast" }
-
-
-# ----------------
-# QR / Barcode
-# ----------------
-
-zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxing" }
-
-
-
-
-# ----------------
-# Image loader
-# ----------------
-
-
-glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
-glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
-
-
-# ----------------
-# Networking
-# ----------------
-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
-retrofit-serialization = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version.ref = "retrofit-serialization" }
-
-okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
-okhttp-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp-logging" }
-
-# OkHttp v2 (legacy)
-okhttp2-urlconnection = { module = "com.squareup.okhttp:okhttp-urlconnection", version.ref = "okhttp2" }
-
-
-# ----------------
-# Play App Update
-# ----------------
-
-play-app-update = { module = "com.google.android.play:app-update", version.ref = "play-app-update" }
-asset-delivery = { module = "com.google.android.play:asset-delivery", version.ref = "asset-delivery" }
-play-app-update-ktx = { module = "com.google.android.play:app-update-ktx", version.ref = "play-app-update" }
-emoji = { module = "com.vanniktech:emoji-google", version.ref = "emoji" }
-
-[bundles]
-
-androidx-core = [
-  "androidx-core-ktx",
-  "androidx-appcompat",
-  "androidx-activity-ktx",
-  "androidx-fragment-ktx"
-]
-
-lifecycle = [
-  "lifecycle-runtime-ktx",
-  "lifecycle-viewmodel-ktx",
-  "lifecycle-livedata-ktx",
-  "lifecycle-process"
-]
-
-navigation = [
-  "navigation-fragment-ktx",
-  "navigation-ui-ktx"
-]
-
-room = [
-  "room-runtime",
-  "room-ktx"
-]
-
-firebase = [
-  "firebase-analytics",
-  "firebase-config",
-  "firebase-crashlytics",
-  "firebase-messaging"
-]
-
-aivory = [
-  "aivory-analytics",
-  "aivory-firstopen",
-  "aivory-core",
-  "aivory-ads",
-  "aivory-ads-ui-views"
-]
-
-admob-mediation-adapter = [
-  "admob-applovin-adapter",
-  "admob-facebook-adapter",
-  "admob-mintegral-adapter",
-  "admob-pangle-adapter",
-  "admob-vungle-adapter"
-]
-
-networking = [
-  "retrofit",
-  "retrofit-serialization",
-  "okhttp",
-  "okhttp-logging"
-]
-
 [plugins]
 
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
-
-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
-
-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
-
-navigation-safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
-
-androidx-baselineprofile = { id = "androidx.baselineprofile", version.ref = "androidx-benchmark" }
-
-google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
-
-firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics" }
-
-spotless = { id = "com.diffplug.gradle.spotless", version.ref = "spotless" }
