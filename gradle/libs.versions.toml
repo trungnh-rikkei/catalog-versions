@@ -14,7 +14,7 @@ facebook = "18.1.3"
 aivory-ads = "1.0.10"
 aivory-analytics = "1.0.0"
 aivory-firstopen = "1.0.4-alpha03"
-aivory-core = "1.0.3-alpha02"
+aivory-core = "1.0.4-alpha01"
 aivory-rating = "1.0.0-alpha08"
 
 # Admob mediation adapter
