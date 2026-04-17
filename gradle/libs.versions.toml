@@ -1,7 +1,7 @@
 [versions]
 
 # Build
-agp = "9.1.0"
+agp = "9.1.1"
 kotlin = "2.3.20"
 
 # Logging
@@ -11,15 +11,15 @@ timber = "5.0.1"
 facebook = "18.2.3"
 
 # Aivory SDKs
-aivory-ads = "1.0.15"
+aivory-ads = "1.0.16"
 aivory-analytics = "1.0.0"
-aivory-firstopen = "1.0.4-alpha08"
+aivory-firstopen = "1.0.4-alpha09"
 aivory-core = "1.0.4-alpha15"
 aivory-rating = "1.0.0-alpha08"
 
 # Admob mediation adapter
-admob-mintegral-adapter = "17.1.31.0"
-admob-pangle-adapter = "7.9.1.2.0"
+admob-mintegral-adapter = "17.1.41.0"
+admob-pangle-adapter = "7.9.1.3.0"
 admob-applovin-adapter = "13.6.2.0"
 admob-facebook-adapter = "6.21.0.2"
 admob-vungle-adapter = "7.7.2.0"
