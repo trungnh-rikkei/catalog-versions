@@ -11,7 +11,7 @@ timber = "5.0.1"
 facebook = "18.2.3"
 
 # Aivory SDKs
-aivory-ads = "1.0.16"
+aivory-ads = "1.0.17-alpha01"
 aivory-analytics = "1.0.0"
 aivory-firstopen = "1.0.4-alpha09"
 aivory-core = "1.0.4-alpha15"
