@@ -13,7 +13,7 @@ facebook = "18.2.3"
 # Aivory SDKs
 aivory-ads = "3.0.0-alpha08"
 aivory-analytics = "1.0.0"
-aivory-firstopen = "1.0.5-alpha10"
+aivory-firstopen = "1.0.5-alpha11"
 aivory-core = "1.0.4-alpha15"
 aivory-rating = "1.0.0-alpha08"
 
