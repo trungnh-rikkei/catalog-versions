@@ -48,6 +48,7 @@ aivory-ads = { module = "app.aivory.monet:ads", version.ref = "aivory-ads" }
 aivory-ads-ui-compose = { module = "app.aivory.monet:ads-ui-compose", version.ref = "aivory-ads" }
 aivory-analytics = { module = "app.aivory:analytics", version.ref = "aivory-analytics" }
 aivory-firstopen = { module = "app.aivory:firstopen", version.ref = "aivory-firstopen" }
+aivory-firstopen-ksp = { module = "app.aivory:firstopen-ksp", version.ref = "aivory-firstopen" }
 aivory-core = { module = "app.aivory.android:core", version.ref = "aivory-core" }
 aivory-rating = { module = "app.aivory:rating", version.ref = "aivory-rating" }
 
