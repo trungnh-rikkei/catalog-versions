@@ -1,0 +1,71 @@
+[versions]
+
+# Build
+agp = "9.2.1"
+kotlin = "2.3.21"
+
+# Logging
+timber = "5.0.1"
+
+# Facebook
+facebook = "18.2.3"
+
+# Aivory SDKs
+aivory-ads = "3.0.0-alpha09"
+aivory-analytics = "1.0.0"
+aivory-firstopen = "1.0.0-alpha02"
+aivory-core = "1.0.0-alpha03"
+aivory-rating = "1.0.0-alpha08"
+
+# Admob mediation adapter
+admob-mintegral-adapter = "17.1.51.0"
+admob-pangle-adapter = "8.0.0.4.0"
+admob-applovin-adapter = "13.6.2.0"
+admob-facebook-adapter = "6.21.0.2"
+admob-vungle-adapter = "7.7.2.0"
+
+[libraries]
+
+# ----------------
+# Logging
+# ----------------
+
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+
+
+# ----------------
+# Facebook
+# ----------------
+
+facebook-sdk = { module = "com.facebook.android:facebook-android-sdk", version.ref = "facebook" }
+
+
+# ----------------
+# Aivory
+# ----------------
+
+aivory-ads = { module = "app.aivory.monet:ads", version.ref = "aivory-ads" }
+aivory-ads-ui-compose = { module = "app.aivory.monet:ads-ui-compose", version.ref = "aivory-ads" }
+aivory-analytics = { module = "app.aivory:analytics", version.ref = "aivory-analytics" }
+aivory-firstopen = { module = "app.aivory:firstopen-compose", version.ref = "aivory-firstopen" }
+aivory-firstopen-ksp = { module = "app.aivory:firstopen-ksp-compose", version.ref = "aivory-firstopen" }
+aivory-core = { module = "app.aivory.android:core-compose", version.ref = "aivory-core" }
+aivory-rating = { module = "app.aivory:rating", version.ref = "aivory-rating" }
+
+
+# ----------------
+# Admob mediation adapter
+# ----------------
+admob-applovin-adapter = { module = "com.google.ads.mediation:applovin", version.ref = "admob-applovin-adapter" }
+admob-facebook-adapter = { module = "com.google.ads.mediation:facebook", version.ref = "admob-facebook-adapter" }
+admob-mintegral-adapter = { module = "com.google.ads.mediation:mintegral", version.ref = "admob-mintegral-adapter" }
+admob-pangle-adapter = { module = "com.google.ads.mediation:pangle", version.ref = "admob-pangle-adapter" }
+admob-vungle-adapter = { module = "com.google.ads.mediation:vungle", version.ref = "admob-vungle-adapter" }
+
+
+[plugins]
+
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
