@@ -21,8 +21,8 @@ aivory-rating = "1.0.0-alpha08"
 admob-mintegral-adapter = "17.1.51.0"
 admob-pangle-adapter = "8.0.0.4.0"
 admob-applovin-adapter = "13.6.2.0"
-admob-facebook-adapter = "6.21.0.2"
-admob-vungle-adapter = "7.7.2.0"
+admob-facebook-adapter = "6.21.0.3"
+admob-vungle-adapter = "7.7.3.0"
 
 [libraries]
 
