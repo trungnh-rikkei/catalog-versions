@@ -15,7 +15,6 @@ aivory-ads = "3.0.0-alpha11"
 aivory-analytics = "1.0.0"
 aivory-firstopen = "1.0.0-alpha03"
 aivory-core = "1.0.0-alpha03"
-aivory-rating = "1.0.0-alpha08"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.51.0"
@@ -50,7 +49,6 @@ aivory-analytics = { module = "app.aivory:analytics", version.ref = "aivory-anal
 aivory-firstopen = { module = "app.aivory:firstopen-compose", version.ref = "aivory-firstopen" }
 aivory-firstopen-ksp = { module = "app.aivory:firstopen-ksp-compose", version.ref = "aivory-firstopen" }
 aivory-core = { module = "app.aivory.android:core-compose", version.ref = "aivory-core" }
-aivory-rating = { module = "app.aivory:rating", version.ref = "aivory-rating" }
 
 
 # ----------------
@@ -66,6 +64,4 @@ admob-vungle-adapter = { module = "com.google.ads.mediation:vungle", version.ref
 [plugins]
 
 android-application = { id = "com.android.application", version.ref = "agp" }
-android-library = { id = "com.android.library", version.ref = "agp" }
-
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
